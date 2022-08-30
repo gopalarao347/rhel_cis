@@ -1,0 +1,5 @@
+[rhel7_cis]
+20.232.178.214 ansible_connection=ssh ansible_user=azureuser
+
+[rhel8_cis]
+20.232.178.214 ansible_connection=ssh ansible_user=azureuser

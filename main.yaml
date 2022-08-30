@@ -1,0 +1,7 @@
+---
+- name: RHEL Patching Playbook
+  hosts: "{{ RHEL_SERVER }}"
+  become: yes
+  gather_facts: yes
+  roles:
+    - "{{ RHEL_SERVER }}"

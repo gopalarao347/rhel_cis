@@ -1,0 +1,8 @@
+---
+# tasks file for rhel
+- name: Sample command
+  shell: ls -lart
+  register: output
+
+- debug:
+    var: output
